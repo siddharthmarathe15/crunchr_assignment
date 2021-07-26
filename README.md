@@ -19,4 +19,8 @@ pip install -r requirements.txt
     - Q2. Static - http://127.0.0.1:8000/search/age/
     - Q2. Dynamic - http://127.0.0.1:8000/search/age/?age=5
 
+# Management command
 
+To load the data into the database please use below command
+
+    - python3 manage.py load_data <file-path>
